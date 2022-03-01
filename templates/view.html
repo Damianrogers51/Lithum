@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<section>
+    <div class="container-fluid view-container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="{{book.image}}" class="full-image" alt="">
+            </div>
+            <div class="col-md-8">
+                <h1 class="right">
+                    {{book.title}}
+                </h1>
+                <h2 class="right">
+                    <i>{{book.author}}</i>
+                </h2>
+                <h4>
+                    {{book.summary}}
+                </h4>
+                <div class="purchase-row right">
+                    <a href="{{book.amazon}}" class="purchase right">
+                        Purchase >
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

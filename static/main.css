@@ -1,0 +1,176 @@
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: gainsboro
+}
+
+section {
+    height: 100vh;
+    padding-top: 160px;
+
+    scroll-snap-align: start;
+}
+
+div {
+    font-weight: 500;
+}
+
+.navbar {
+    background-color: gainsboro;
+
+    padding-bottom: 0px;
+}
+
+.divider {
+    margin-top: 40px;
+
+    width: 100%;
+    
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: black;
+
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#lithum {
+    padding-top: 40px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+#lithum:hover {
+    cursor: pointer;
+}
+
+#header {
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: black;
+
+    padding-bottom: 40px;
+
+    position:fixed;
+    width: 100%;
+    top:0;
+    z-index:100;
+
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.title {
+    padding: 0px;
+
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#header div {
+    padding-left: 0px;
+}
+
+.book {
+    padding: 0;
+    max-height: 450px;
+
+    color: gainsboro;
+
+    transition: ease-out;
+    transition-duration: .2s;
+}
+
+.book:hover {
+    color: black;
+}
+
+.cover {
+    padding: 0;
+    display: block;
+    margin: auto;
+
+    height: 100%;
+
+    transition: ease-out;
+    transition-duration: .2s;
+}
+
+.cover:hover{
+    box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.5);
+}
+
+#body {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.panel {
+    width: 100%;
+    height: 100vh;
+}
+
+.footer {
+    padding: 0px;
+    text-align: end;
+
+    margin-top: 80px;
+    margin-right: 40px;
+}
+
+.no {
+    font-weight: 600;
+    padding: 0px;
+}
+
+.full-image {
+    width: 90%;
+
+    transition: ease-out;
+    transition-duration: .2s;
+}
+
+.full-image:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.5);
+}
+
+.view-container {
+    padding-left: 56px;
+    padding-right: 56px;
+}
+
+.right {
+    text-align: end;
+    justify-content: end;
+}
+
+.purchase {
+    color: rgb(194, 194, 194);
+
+    text-decoration: none;
+}
+
+.purchase:hover {
+    color: black;
+
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+
+    font-weight: 400;
+}
+
+h4, .purchase-row {
+    margin-top: 40px;
+}
+
